@@ -5,7 +5,7 @@ public class MovementGRAVITY : MonoBehaviour
 {
 	public float mouseSensitivityX = 250f;
 	public float mouseSensitivityY = 250f;
-	public float walkSpeed = 8f;
+	public float walkSpeed = 9f;
 	
 	Transform cameraT;
 	float verticalLookRotation;
