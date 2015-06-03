@@ -27,7 +27,7 @@ public class MovementGRAVITY : MonoBehaviour
 		
 		Vector3 moveDir = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical")).normalized;
 		Vector3 targetMoveAmount = moveDir * walkSpeed;
-		moveAmount = Vector3.SmoothDamp (moveAmount, targetMoveAmount, ref smoothMoveVelocity, 0.15f);
+		moveAmount = Vector3.SmoothDamp (moveAmount, targetMoveAmount, ref smoothMoveVelocity, 0.18f);
 	}
 	
 	void FixedUpdate()
